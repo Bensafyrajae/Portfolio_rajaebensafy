@@ -14,6 +14,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Form from "./components/Form/form";
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
          <Home />
          <About/>
          <Projects/>
-       
+          <Form/>
         <Footer />
       </div>
     </Router>

@@ -741,3 +741,70 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* src/App.css */
+body {
+  background-color: #f8f0e3; /* Light nude background for contrast */
+  font-family: Arial, sans-serif; /* Default font */
+}
+
+.form-container {
+  max-width: 400px; /* Maximum width of the form */
+  margin: 50px auto; /* Center the form horizontally and add some margin on top */
+  padding: 20px; /* Internal spacing */
+  background-color: #fff; /* White background for the form */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.form-container:hover {
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+h2 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  color: #5a4f47; /* Darker nude color for the title */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below labels */
+  font-size: 14px; /* Font size for labels */
+  color: #8a7d73; /* Light nude color for labels */
+}
+
+input {
+  width: 100%; /* Full width input fields */
+  padding: 10px; /* Internal spacing */
+  border: 1px solid #d3b8a2; /* Light nude border */
+  border-radius: 8px; /* Rounded corners for input fields */
+  font-size: 16px; /* Font size for input text */
+  outline: none; /* Remove default outline */
+  transition: border 0.3s ease; /* Smooth border transition */
+}
+
+input:focus {
+  border-color: #d3a39b; /* Slightly darker nude on focus */
+}
+
+button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Internal spacing */
+  background-color: #d3a39b; /* Nude background for button */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners for button */
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #b78f83; /* Darker nude on hover */
+}
+
