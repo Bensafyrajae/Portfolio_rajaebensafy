@@ -808,3 +808,23 @@ button:hover {
   background-color: #b78f83; /* Darker nude on hover */
 }
 
+textarea {
+  width: 100%; 
+  max-width: 100%; 
+  min-height: 150px;
+  padding: 15px;
+  background-color: #f8f0e3;
+  border: 2px solid #d3b8a2; 
+  border-radius: 12px;
+  font-size: 16px; 
+  color: #5a4f47; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  outline: none; 
+  transition: all 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #d3a39b; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
